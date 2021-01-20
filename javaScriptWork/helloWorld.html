@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HelloWorld JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+
+<body onload="addc()">
+	<form>
+		<table id="tableTest" border="1" width="30%" class="cls1">
+			<tr>
+				<td>delete</td>
+				<td id="td01" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Name</td>
+				<td>age</td>
+				<td>Tel</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="check1" /></td>
+				<td class="cls1 cls2 cls3">Test1</td>
+				<td>18</td>
+				<td>001</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="check2" /></td>
+				<td>Test2</td>
+				<td>19</td>
+				<td>002</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="check3" /></td>
+				<td>Test3</td>
+				<td>20</td>
+				<td>003</td>
+			</tr>
+		</table>
+		<input type="button" value="add row" onclick="addRow()">
+		<input type="button" value="del row" onclick="deleteRow()">
+		<input type="button" value="edit row" onclick="editRow()">
+		<br />
+		<input name="myfile" type="file"  id="filetemp1" /><br/>
+		<textarea name="output" cols="80" rows="10" id="textarea1"></textarea>
+		<br/>
+		<img id="img" />
+	</form>
+	<script src="myScript1.js" ></script>
+</body>
+</html>
