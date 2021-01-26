@@ -3,3 +3,11 @@ Salesforce Rest api
 heroku
 node.js
 Python
+lightning コンポーネント
+
+
+202001 node.js 
+DB访问
+增删改查
+文件读取
+
