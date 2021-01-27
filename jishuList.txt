@@ -3,7 +3,8 @@ Salesforce Rest api
 heroku
 node.js
 Python
-lightning コンポーネント
+lwc
+aura
 
 
 202001 node.js 

@@ -1,7 +1,10 @@
 var fs = require("fs");
 
 fs.readFile('input.txt', function (err, data) {
-    if (err) return console.error(err);
-    console.log(data.toString());
+   if (err){
+      console.log(err.stack);
+      return;
+   }
+   console.log(data.toString());
 });
-console.log("process is finish!");
+console.log("程序执行完毕");
