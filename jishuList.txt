@@ -3,11 +3,12 @@ Salesforce Rest api
 heroku
 node.js
 Python
-lwc
-aura
+
+202001 lwc
+Lightning Web コンポーネントの作成
 
 
-202001 node.js 
+node.js 
 DB访问
 增删改查
 文件读取
