@@ -7,6 +7,9 @@ Python
 202001 lwc
 Lightning Web コンポーネントの作成
 
+yokohama_wp@brave-hawk-l0st3o.com
+標準パスワード
+
 
 node.js 
 DB访问
